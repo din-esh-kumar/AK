@@ -1,0 +1,108 @@
+* {
+    font-family: "poppins" , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-image: url(meat\ bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+header {
+    width: 100%;
+    height: 73px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    padding: 30px 10%;
+    
+
+}
+.logo h3 {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color: red;
+    letter-spacing: 3px;
+    pointer-events: none;
+    
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    text-align: center;
+}
+.navbar ul {
+    margin-left: 50px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.navbar :hover{
+    color: #fc0b0b;
+}
+.navbar .active {
+    color: #ff2525;
+}
+
+.btn .button-1 {
+    display: flex;
+}
+
+.button-1{
+  background: linear-gradient(to bottom right, #ff2828, #180e07);
+  border: 0;
+  border-radius: 12px;
+  color: #ff2525;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 2.5;
+  outline:transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 70px;
+  background: transparent;
+  border: 1px solid red;
+}
+
+.button-1:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(255, 11, 11, 0.881), .125rem .125rem 1rem rgba(255, 27, 27, 0.927);
+}
+
+.heading {
+    color: #fff;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: larger;
+    letter-spacing: 2px;
+    
+    
+}
